@@ -1,0 +1,10 @@
+POST http://localhost:8080/events/
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlLmFuaWthdGVAZ21haWwuY29tIiwiZXhwIjoxNzEyMzE5OTEzLCJpZCI6MX0._4i60beuh2iUMlzpJ7kHPieM_jTUIMOf9k8GtR-ts5A
+
+{
+    "name": "Go Workshop",
+    "description": "A small webinar and hands-on workshop to learn Go programming fundamentals",
+    "location": "New Delhi, India",
+    "date": "2024-04-15T23:59:59.999Z"
+}
